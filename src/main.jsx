@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, Route, RouterProvider, createRoutesFromElements } from 'react-router-dom'
 import Layout from './Layout/Layout.jsx'
-import {Home, About, Contact, User, Github, githubinfolaoder, PrivacyPolicy} from './components'
+import {Home, About, Contact, User, Github, githubinfolaoder, PrivacyPolicy, TermsAndConditions} from './components'
 
 // const router = createBrowserRouter([
 //   {
@@ -35,6 +35,7 @@ const router = createBrowserRouter(
       <Route path='user/:userid' element={<User/>} />
       <Route loader={githubinfolaoder} path='github' element={<Github/>} />
       <Route path='privacypolicy' element={<PrivacyPolicy/> }/> 
+      <Route path='termsandconditions' element={<TermsAndConditions/>} />
     </Route> 
 
   )
