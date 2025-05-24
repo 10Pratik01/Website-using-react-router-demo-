@@ -5,5 +5,8 @@ import About from './About/About.jsx'
 import Contact from './Contact/Contact.jsx'
 import User from './User/User.jsx'
 import Github, { githubinfolaoder } from './Github/Github.jsx'
+import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy.jsx'
 
-export {Home, Footer, Header, About, Contact, User, Github, githubinfolaoder}
+
+
+export {Home, Footer, Header, About, Contact, User, Github, githubinfolaoder,PrivacyPolicy}

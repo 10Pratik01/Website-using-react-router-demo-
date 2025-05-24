@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import home_img1 from '../../assets/image1.jpg';
-import home_img2 from '../../assets/image2.png';
+import home_img1 from '../../assets/home_img1.jpg';
+import home_img2 from '../../assets/home_img2.png';
 
 export default function Home() {
   return (
@@ -46,14 +46,10 @@ export default function Home() {
       </aside>
 
       {/* Middle Section Image */}
-      <div className="grid place-items-center mt-16">
+      <div className="grid place-items-center mt-16 mb-10">
         <img className="w-48 sm:w-96 object-contain" src={home_img2} alt="image2" />
       </div>
 
-      {/* Heading */}
-      <h1 className="text-center text-2xl sm:text-5xl font-semibold py-12 text-gray-800">
-        Lorem Ipsum Yojo
-      </h1>
     </div>
   );
 }
